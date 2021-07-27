@@ -1,0 +1,17 @@
+body{
+    background-color: #412b2b;
+}
+.container-fluid{
+    background-color: #200c0c;
+}
+.imge{
+    width: 15rem;
+    position: relative;
+    transition: transform 0.2s;
+}
+.imge:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #ffff;
+    background-color: #200c0c;
+}
